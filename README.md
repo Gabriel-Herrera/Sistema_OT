@@ -26,7 +26,7 @@ El servidor utiliza:
 npm install
 ```
 
-3. Configurar la base de datos en `index.js` o usar variables de entorno.
+3. Configurar la base de datos en `index.js`.
 4. Ejecutar el proyecto:
 
 ```bash
@@ -43,7 +43,6 @@ const db = mysql.createPool({
   user: "root",
   password: "",
   database: "caso_ot_db",
-  charset: "utf8mb4",
 });
 ```
 
@@ -53,8 +52,6 @@ Ajusta estos datos según tu entorno MySQL:
 - `user`
 - `password`
 - `database`
-
-> Si prefieres, puedes reemplazar estos valores por variables de entorno para proteger credenciales.
 
 ## Rutas disponibles
 
