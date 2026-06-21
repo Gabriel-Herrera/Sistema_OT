@@ -114,5 +114,4 @@ curl "http://localhost:3000/work-order-system/get-equipment?id-provision=5"
 
 ## Notas
 
-- El proyecto ya incluye `.gitignore` para ignorar `node_modules`.
-- Asegúrate de tener la base de datos `caso_ot_db` creada y las tablas requeridas según las consultas de `index.js`.
+- Asegúrate de tener la base de datos `caso_ot_db` creada y las tablas requeridas.
